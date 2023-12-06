@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'REM-Black';
+    src: url('fonts/REM-Black.ttf');
+}
+
+body {
+    overflow: hidden;
+}  
+
+#container {
+    display: none;
+}
+
+.square {
+  width: 300px;
+  height: 95px;
+  border-radius: 5px;
+  background-color: black;
+  margin: 50px;
+  opacity: 0.8;
+}
+
+.leszek74logo {
+    width: 96px;
+    height: 96px;
+    border-radius: 5px;
+    margin: 50px;
+  }
+
+.mainokno {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.94;
+}
+
+.anuluj {
+    font-family: 'REM-Black';
+    width: 160px;
+    height: 45px;
+    border-radius: 6px;
+    margin: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.glownytekst {
+    font-family: 'REM-Black';
+    font-size: 25px;
+    border-radius: 4px;
+    margin: 50px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    opacity: 0.85;
+}
+
+
+.wskazowka {
+    font-family: 'REM-Black';
+    width: 350px;
+    height: 45px;
+    border-radius: 6px;
+    margin: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 45px;
+    opacity: 0.84;
+}
+
+#glownytekst1 {
+    position: absolute;
+    top: 12%;
+    left: 30%;
+}
+
+#wskazowka1 {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transform: translate(116%, -1325%);
+}
+
+#wskazowka2 {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transform: translate(116%, -1150%);
+}
+
+#wskazowka3 {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transform: translate(116%, -970%);
+}
+
+#wskazowka4 {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transform: translate(290%, -1931%);
+}
+
+#wskazowka5 {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transform: translate(290%, -1756%);
+}
+
+#anuluj1 {
+    background-color: rgb(255, 32, 32);
+    border-top: 1.5px solid rgb(255, 32, 32);
+    border-left: 1.5px solid rgb(255, 32, 32);
+    border-right: 1.5px solid rgb(255, 32, 32);
+    border-bottom: 1.5px solid rgb(255, 32, 32);
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: black;
+    transform: translate(690%, -372%);
+}
+
+#mainokno1 {
+    font-family: 'REM-Black';
+    color: rgb(255, 255, 255);
+    width: 1200px;
+    height: 580px;
+    background-color: rgb(0, 0, 0);
+    border: 6px solid rgba(255, 255, 255, 0.2);
+    border-radius: 7px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#square1 {
+    background-image: url('image/zdjecie1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    transform: translate(140%, 265%);
+}
+
+#square2 {
+    background-image: url('image/zdjecie2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    transform: translate(140%, 295%);
+}
+
+#square3 {
+    background-image: url('image/zdjecie3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    transform: translate(140%, 325%);
+}
+
+#square4 {
+    background-image: url('image/zdjecie4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    transform: translate(338%, -178%);
+}
+
+#square5 {
+    background-image: url('image/zdjecie5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    transform: translate(338%, -148%);
+}
+
+#leszek74logo1 {
+    background-image: url('image/zdjecie6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(490%, -1320%);
+    opacity: 0.85;
+}
